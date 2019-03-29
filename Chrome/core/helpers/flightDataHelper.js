@@ -1,0 +1,1 @@
+var FlightDataHelper=function(){};FlightDataHelper.prototype.getData=function(t,e){var a=new XMLHttpRequest;a.open("GET",Helper.getFilePath(t)),a.onreadystatechange=function(t){4==a.readyState&&(200!=a.status&&0!=a.status||e(JSON.parse(a.responseText)))},a.send()};

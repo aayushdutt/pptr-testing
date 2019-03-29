@@ -1,0 +1,1 @@
+var ChromeSettingsProvider=function(t){var e=this;e.usingDefaultListeners=[],chrome.storage.sync.get("calculationObject",function(r){r.calculationObject?e.settings=r.calculationObject:e.settings={},t(e)})};ChromeSettingsProvider.prototype=Object.create(SettingsProviderCore.prototype);var SettingsProvider=ChromeSettingsProvider;

@@ -1,0 +1,17 @@
+{
+  "name": "pptr-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.5.0",
+    "puppeteer": "^1.13.0"
+  },
+  "devDependencies": {}
+}

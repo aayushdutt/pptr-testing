@@ -1,0 +1,1 @@
+var ChromeHelper=function(e){};ChromeHelper.getFilePath=function(e){return chrome.runtime.getURL(e)},ChromeHelper.showPageAction=function(e){chrome.runtime.sendMessage({showPageAction:"True"},e)},ChromeHelper.openUrl=function(e){window.open(e)};var Helper=ChromeHelper;

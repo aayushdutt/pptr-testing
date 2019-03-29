@@ -1,0 +1,1 @@
+function googleAnalytics(t){var e=e||[];e.push(["_setAccount",t]),e.push(["_trackPageview"]),function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://ssl.google-analytics.com/ga.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}()}

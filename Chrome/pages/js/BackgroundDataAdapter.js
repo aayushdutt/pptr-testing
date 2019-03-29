@@ -1,0 +1,1 @@
+var BackgroundDataAdapter=function(e){var r=this;browserServices.getStorage("exchangeRates",function(e){e&&(r.exchangeRates=e.exchangeRates)}),browserServices.getStorage("fuelPrices",function(e){e&&(r.fuelPrices=e.fuelPrices)}),e()};
