@@ -38,5 +38,5 @@ describe("Google Maps", () => {
     });
 
     expect(emission).toBe("1.43 kg CO2");
-  }, 16000);
+  }, 17000);
 });
